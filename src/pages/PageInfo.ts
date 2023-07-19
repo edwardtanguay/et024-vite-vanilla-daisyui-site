@@ -1,7 +1,12 @@
+import { Alert } from "../components/Alert";
+
 export const PageInfo = () => {
 	return /*html*/`
-<div class="page pageInfo">
-	<p>This is the info page.</p>
-</div>
+
+	${Alert()}
+	${Alert()}
+	${Alert()}
+	${Alert()}
+	${Alert()}
 `; 
 }
