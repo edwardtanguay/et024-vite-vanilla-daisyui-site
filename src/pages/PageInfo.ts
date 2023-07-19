@@ -9,7 +9,6 @@ export const PageInfo = () => {
 	${Alert('success', 'Records have finished copying.')}
 	${Alert('warning', 'Record copying duration may be more than two minutes.')}
 	${Alert('error', 'Records could not be copied.')}
-	
 </div>
 `;
 }
